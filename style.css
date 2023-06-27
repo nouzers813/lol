@@ -126,7 +126,11 @@ a{
   .iglink{
     cursor: url(bloodknife1.png), auto;
     position: absolute;
-    left: 50%;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: auto;
+    display: inline-block;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
@@ -137,14 +141,22 @@ a{
 .ttlink{
     cursor: url(bloodknife1.png), auto;
     position: absolute;
-     left: 50%;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: auto;
+    display: inline-block;
+    margin-top: 20px;
    
 }
 
 .rbxlink{
     cursor: url(bloodknife1.png), auto;
     position: absolute;
-      left: 50%;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: auto;
+    display: inline-block;
+    margin-top: 20px;
 }
 a{
     text-decoration: none;
