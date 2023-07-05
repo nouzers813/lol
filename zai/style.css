@@ -13,7 +13,6 @@ body{
     animation: down 2s;
     border-radius: 100%;
     object-fit: cover;
-    border: 3px solid whitesmoke;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,23 +20,25 @@ body{
     max-width: 150px;
     height: auto;
     position: relative;
-    top: 150px;
+    top: 130px;
 
 }
 
 .profile-name {
     color: white;
     position: relative;
-    top: 200px;
+    top: 100px;
     text-align: center;
     animation: up 2s;
     font-size: 24px;
     margin-top: 30px;
     font-weight: 700;
    
-    
+   
 }
-
+.profile-name span{
+    background-image: url('https://cdn.axolotl.wiki/sparkles.gif');
+}
 .server, .account {
     color:white;
     text-align: center;
@@ -96,6 +97,7 @@ a:hover {
     display: inline-block;
     margin-top: 25px;
     cursor: url(bloodknife1.png), auto;
+    top:300px;
 }
 a{
     text-decoration: none;
@@ -133,6 +135,7 @@ a{
     margin-right: auto;
     display: inline-block;
     margin-top: 20px;
+     top:300px;
 }
 a{
     text-decoration: none;
@@ -149,6 +152,7 @@ a{
     margin-right: auto;
     display: inline-block;
     margin-top: 20px;
+    top:300px;
 }
 .telelink{
     position: absolute;
@@ -158,6 +162,7 @@ a{
     margin-right: auto;
     display: inline-block;
     margin-top: 20px;
+    top:300px;
 }
 a{
     text-decoration: none;
@@ -182,3 +187,9 @@ a{
     align-items: center;
   
   }
+.rounded-md {
+    top: 75px;
+    position: relative;
+    left: 5px;
+    cursor: url(bloodknife1.png), auto;
+   }
