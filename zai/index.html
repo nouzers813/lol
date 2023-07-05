@@ -72,7 +72,7 @@
     <!--1. Profile Picture -->
     <img
       class="profile-picture"
-      src="pfp.jpg"
+      src="blk.jpg"
     />
 
     <!--2. Profile Name or User account -->
@@ -81,10 +81,19 @@
 
     <!-- 3. Links -->
 
-    <a href="https://discord.gg/locate" class="server" target="_blank" >
-        /locate    
+    <a href="https://discord.gg/locate" id="link" class="server" target="_blank" >
+         <span>locate:</span> 
     </a>
-    
+    <style>
+        
+  #link:hover::after {
+    content: "Join .gg/locate!";
+  }
+
+  .server:hover{
+   text-decoration:wavy;
+  }
+</style>
 
 
 
@@ -210,5 +219,26 @@
             <p>made by nouzers.</p>
         </div>
     </footer>
+    <div class="1w-full mx-auto card animate-slide-up not-last-child:mb-12 max-w-[1100px]">
+        <center>
+    <div class="1w-full mx-auto card animate-slide-up not-last-child:mb-12 max-w-[1100px] items-center justify-center">
+
+
+
+    <div class="!p-0" style="max-width:1000px">
+       
+
+    
+    
+    <iframe style="width:400px; margin-bottom: 20px; margin-top:-20px"
+                class="rounded-md w-full sm:w-3/6"
+                src="https://open.spotify.com/embed/track/00otCx9DiOkISQmdA0lEtQ?si=4wmuhmtRQJGDys8mjQdvyQ"
+                height="80"
+                frameBorder=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+               
+            </iframe>
+
+</div> 
   </body>
 </html>
